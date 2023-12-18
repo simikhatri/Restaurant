@@ -1,0 +1,49 @@
+.Back-Contact {
+        /* max-width: 80%;  */
+        background-image: url("https://www.wallpaperflare.com/static/935/259/744/restaurant-table-interior-modern-wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+.Contact-content {
+    padding: 30px;
+    background-color: #f7f4ec;
+
+}
+
+.Contact-Heading {
+    color: #51170f;
+}
+
+.input-field {
+    margin: 20px;
+}
+
+.Contact-form {
+    padding: 30px;
+}
+
+.form-label {
+    font-size: 19px;
+    padding-left: 4px;
+}
+@media only screen and (max-width:515px){
+    .Back-Contact .Contact-Button{
+        width: 100%;
+    }
+    .Contact-content {
+        padding: 30px 0 0 0;
+    }
+    .Contact-form {
+        padding: 20px;
+    }
+    .SignUp {
+        padding: 2rem;
+    }
+}
+@media only screen and (max-width:300px){
+    .SignUp {
+        padding: 1rem;
+    }
+}
